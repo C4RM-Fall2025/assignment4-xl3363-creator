@@ -8,10 +8,3 @@ def getBondPrice_E(face, couponRate, m, yc):
     bondPrice = bondprice + pvcf
     
     return(bondPrice)
-
-# Test values
-
-yc = [.010,.015,.020,.025,.030]
-face = 2000000
-couponRate = .04
-getBondPrice_E(face, couponRate, m, yc)
